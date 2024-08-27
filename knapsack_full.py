@@ -8,8 +8,6 @@ def knapsack(items, max_weight):
     best_weight = 0
 
     for size in range(items_len, 0, -1 ):
-        if size < len(best_comb):
-            break
 
         iter_comb = combinations(items, size)
 
